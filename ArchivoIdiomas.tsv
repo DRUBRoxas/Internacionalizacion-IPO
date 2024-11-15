@@ -1,0 +1,71 @@
+2
+es
+30
+Español
+Inglés
+Cadenas
+Archivo
+Idioma
+Opciones
+Añadir Coche
+Borrar Coche
+Editar Coche
+Salir
+Marca
+Modelo
+Matrícula
+Añadir
+Coche Añadido
+Rellene todos los campos
+Cancelar
+Buscar
+Coche no encontrado
+Error
+Actualizar
+Coche Actualizado
+Borrar
+Coche Borrado
+Practica 4
+¿Estás seguro de que quieres borrar el vehiculo?
+Si
+No
+Esta matricula ya existe
+Vale
+2
+./img/banderaEs.png
+./img/fotoEs.jpeg
+en
+30
+Spanish
+English
+Strings
+File
+Language
+Options
+Add Car
+Delete Car
+Edit Car
+Exit
+Brand
+Model
+License Plate
+Add
+Car Added
+Fill in all fields
+Cancel
+Search
+Car not found
+Error
+Update
+Car Updated
+Delete
+Car Deleted
+Practice 4
+Are you sure you want to delete this car?
+Yes
+No
+This License plate already exists
+Okay
+2
+./img/flagEn.png
+./img/photoEn.jpg
