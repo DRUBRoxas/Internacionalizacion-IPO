@@ -1,0 +1,27 @@
+Archivo
+Idioma
+Opciones
+Añadir Coche
+Borrar Coche
+Editar Coche
+Salir
+Marca
+Modelo
+Matrícula
+Añadir
+Coche Añadido
+Rellene todos los campos
+Cancelar
+Buscar
+Coche no encontrado
+Error
+Actualizar
+Coche Actualizado
+Borrar
+Coche Borrado
+Practica 4
+¿Estás seguro de que quieres borrar el coche con matrícula?
+Si
+no
+Esta matricula ya existe
+Vale

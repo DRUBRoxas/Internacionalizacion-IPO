@@ -1,6 +1,6 @@
 4
 es
-31
+30
 Español
 Archivo
 Idioma
@@ -31,12 +31,11 @@ Esta matricula ya existe
 Vale
 Completado
 Busqueda
-Confirmación
 2
 ./img/banderaEs.png
 ./img/fotoEs.jpeg
 en
-31
+30
 English
 File
 Language
@@ -67,13 +66,12 @@ This License plate already exists
 Okay
 Completed
 Search
-Confirmation
 2
 ./img/flagEn.png
 ./img/photoEn.jpg
 sp
-31
-Español
+30
+Español Modificado
 Archivo
 Idioma
 Opciones
@@ -103,13 +101,12 @@ Esta matricula ya existe
 Vale
 Completado
 Busqueda
-Confirmación
 2
 ./img/banderaEs.png
 ./img/fotoEs.jpeg
 em
-31
-English
+30
+English Modified
 File
 Language
 Options
@@ -126,7 +123,7 @@ Fill in all fields
 Cancel
 ¿Are you sure you want to exit?
 Car not found
-ErroLLLLLLLLLLLLL
+Error
 Update
 Car Updated
 Delete
@@ -139,8 +136,6 @@ This License plate already exists
 Okay
 Completed
 Search
-Confirmation
 2
 ./img/flagEn.png
 ./img/photoEn.jpg
-

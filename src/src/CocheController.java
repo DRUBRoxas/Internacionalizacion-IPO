@@ -3,10 +3,7 @@ package src;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
+import java.util.*;
 
 public class CocheController {
     private Map<String, Coche> coches= new HashMap<>();
@@ -66,5 +63,9 @@ public class CocheController {
 
     public Collection<Coche> getAllCoches() {
         return coches.values();
+    }
+
+    public Map<String, Coche> getCoches() {
+        return coches;
     }
 }

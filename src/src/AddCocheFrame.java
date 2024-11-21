@@ -55,14 +55,17 @@ public class AddCocheFrame extends JFrame {
             String matricula = matriculaField.getText();
             if(!marca.isEmpty() && !modelo.isEmpty() && !matricula.isEmpty()) {
                 if(!controller.addCoche(new Coche(marca, modelo, matricula))) {
-                    JOptionPane.showMessageDialog(this,cadenas.get(26), cadenas.get(4),JOptionPane.INFORMATION_MESSAGE); // "Car already exists"
+                    // 26: "Car already exists" o "Coche ya existe"  ||  17: Error
+                    JOptionPane.showMessageDialog(this,cadenas.get(26), cadenas.get(17),JOptionPane.INFORMATION_MESSAGE); // "Car already exists"
                 } else {
                     controller.guardarDatos();
-                    JOptionPane.showMessageDialog(this,cadenas.get(16), cadenas.get(4),JOptionPane.INFORMATION_MESSAGE); // "Car added"
+                    // 16: "Car added" o "Coche añadido" || 28: Completado
+                    JOptionPane.showMessageDialog(this,cadenas.get(12), cadenas.get(28),JOptionPane.INFORMATION_MESSAGE); // "Car added"
                     dispose();
                 }
             } else {
-                JOptionPane.showMessageDialog(this,cadenas.get(13), cadenas.get(4),JOptionPane.INFORMATION_MESSAGE); // "Car deleted"
+                // 13: "Rellene todos los campos" o "Fill all fields" || 17: Error
+                JOptionPane.showMessageDialog(this,cadenas.get(13), cadenas.get(17),JOptionPane.INFORMATION_MESSAGE); // "Car deleted"
             }
         });
 
